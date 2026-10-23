@@ -1,0 +1,7 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "my_agent": "./src/langchain_learn/test_tool_tavily.py:graph"
+  },
+  "env": ".env"
+}

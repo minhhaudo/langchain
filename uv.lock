@@ -762,7 +762,9 @@ dependencies = [
     { name = "langchain-ollama" },
     { name = "langchain-openai" },
     { name = "langchain-tavily" },
+    { name = "langgraph-cli" },
     { name = "python-dotenv" },
+    { name = "tavily" },
 ]
 
 [package.metadata]
@@ -773,7 +775,9 @@ requires-dist = [
     { name = "langchain-ollama", specifier = ">=1.1.0" },
     { name = "langchain-openai", specifier = ">=1.7.2" },
     { name = "langchain-tavily", specifier = ">=0.2.18" },
+    { name = "langgraph-cli", specifier = ">=0.4.38" },
     { name = "python-dotenv", specifier = ">=1.2.4" },
+    { name = "tavily", specifier = ">=1.1.0" },
 ]
 
 [[package]]
@@ -859,6 +863,22 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/0f/69/31fdbdc65a85bbd6178afa193c772bb926620f47b4869638bc2bc80afaaa/langgraph_checkpoint-4.3.0.tar.gz", hash = "sha256:c75965d84cc2c1d549163e910a15bcb577758001b141619d05297c463280b018", size = 182652, upload-time = "2026-10-12T22:26:31.478Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/1f/0c/84747e340bf4f29291c84cdd5733fc8d0a822f3d33bb24e664a18afa4a7c/langgraph_checkpoint-4.3.0-py3-none-any.whl", hash = "sha256:bedfafe2f997ded60e4fa593e79f56f436a6e45586392dc382aa810d0c751c64", size = 58063, upload-time = "2026-10-12T22:26:30.429Z" },
+]
+
+[[package]]
+name = "langgraph-cli"
+version = "0.4.38"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "click" },
+    { name = "httpx" },
+    { name = "langgraph-sdk" },
+    { name = "pathspec" },
+    { name = "python-dotenv" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/13/9e/af18592c463c331bc455c8df5cd8faf2a89013cb3321df5201fe0b8fe6da/langgraph_cli-0.4.38.tar.gz", hash = "sha256:545211d0641cbbf1a923b47c18d86f76eb815531410c29b45217db348f4f2e90", size = 1098057, upload-time = "2026-10-23T14:22:14.603Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/72/fe/d00750e2b361af648c44402aa65d879f124afd712e92ec9fa29e45f4fe77/langgraph_cli-0.4.38-py3-none-any.whl", hash = "sha256:91f57d489c48afc3a4caa5b94f49d60da86727b18cec65559b84d2d87c2b0f33", size = 93672, upload-time = "2026-10-23T14:22:13.293Z" },
 ]
 
 [[package]]
@@ -1670,6 +1690,16 @@ sdist = { url = "https://files.pythonhosted.org/packages/a2/87/a6771e1546d97e7e0
 wheels = [
     { url = "https://files.pythonhosted.org/packages/e9/44/75a9c9421471a6c4805dbf2356f7c181a29c1879239abab1ea2cc8f38b40/sniffio-1.3.1-py3-none-any.whl", hash = "sha256:2f6da418d1f1e0fddd844478f41680e794e6051915791a034ff65e5f100525a2", size = 10235, upload-time = "2024-02-25T23:20:01.196Z" },
 ]
+
+[[package]]
+name = "tavily"
+version = "1.1.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "aiohttp" },
+    { name = "requests" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/63/ba/cd74acdb0537a02fb5657afbd5fd5a27a298c85fc27f544912cc001377bb/tavily-1.1.0.tar.gz", hash = "sha256:7730bf10c925dc0d0d84f27a8979de842ecf88c2882183409addd855e27d8fab", size = 5081, upload-time = "2025-10-31T09:32:40.555Z" }
 
 [[package]]
 name = "tenacity"

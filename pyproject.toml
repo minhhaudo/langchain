@@ -14,7 +14,9 @@ dependencies = [
     "langchain-ollama>=1.1.0",
     "langchain-openai>=1.7.2",
     "langchain-tavily>=0.2.18",
+    "langgraph-cli>=0.4.38",
     "python-dotenv>=1.2.4",
+    "tavily>=1.1.0",
 ]
 
 [project.scripts]
